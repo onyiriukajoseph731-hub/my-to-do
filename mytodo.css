@@ -1,0 +1,57 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+
+body{ 
+    background-color: white;
+}
+
+.box{ 
+text-align: center;
+align-items: center;
+justify-content: center;
+margin: auto;
+margin-top: 100px;
+background-color:white;
+height: 200px;
+width: 500px;
+border-radius: 10px;
+box-shadow:0 4px 12px;
+box-sizing: border-box;
+padding: 30px 20px;
+}
+
+.box h1{ 
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+
+#taskInput{ 
+    width: 350px;
+    height: 40px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+
+}
+.List button { 
+    background-color: #32ae4f;
+    width: 75px;
+    height:45px ;
+    border-radius: 8px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+}
+
+#taskList{ 
+    list-style: none;
+    
+}
