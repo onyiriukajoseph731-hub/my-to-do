@@ -50,8 +50,39 @@ padding: 30px 20px;
     font-size: 15px;
     border: none;
 }
+#addBtn{ 
+    cursor: pointer;
+}
+
+#addBtn:hover{ 
+    background-color: blue;
+    transition: 0.3s ease;}
 
 #taskList{ 
     list-style: none;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-right: 200px;
     
+}
+
+
+/* For screens 600px wide and down (tablets and mobile phones) */
+@media screen and (max-width: 600px) {
+    .box {
+        width: 90%;          /* Make the box fluid instead of a fixed 500px */
+        height: auto;        /* Allow height to expand based on content */
+        margin-top: 50px;    /* Reduce top margin for smaller screens */
+        padding: 20px 15px;  /* Slightly tighter padding */
+    }
+
+    #taskInput {
+        width: 100%;         /* Make the input take up the full available width */
+        margin-bottom: 10px; /* Add space if buttons stack below */
+    }
+
+    .List button {
+        width: 100%;         /* Optionally make the button full-width on mobile for easy tapping */
+        margin-top: 5px;
+    }
 }
